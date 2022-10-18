@@ -1,0 +1,53 @@
+.h2 {
+    font-size: 43px;
+}
+
+.h1 {
+    font-size: 43px;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+.bg-dark1 {
+    --bs-bg-opacity: 1;
+    background: transparent;
+}
+.btn1.active {
+    color: black;
+    background-color:white;
+    border-color:white;
+}
+.btn {
+    border-radius: 33rem;
+    border: 2px;
+}
+.btn:hover{
+    color: black;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.btn1 {
+    --bs-btn-hover-color: rgb(0, 0, 0);
+    --bs-btn-hover-bg: #ffffff;
+}
+.container-fluid1 {
+    width: 100%;
+    padding-left: 12%;
+    padding-top: 26px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-nav {
+    padding-left: 60%;
+}
