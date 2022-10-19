@@ -4,7 +4,17 @@
     color: white;
     font-size: 45px;
 }
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
 
+a:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .h {
     color: red;
     font-size: 45px;

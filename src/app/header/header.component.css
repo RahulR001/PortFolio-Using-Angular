@@ -10,10 +10,13 @@
 a {
     text-decoration: none;
     color: #ffffff;
+    transition: 0.5s;
 }
 
 a:hover {
     color: #ffffff;
+    transform: scale(1.1);
+        transition: 0.5s;
 }
 .bg-dark1 {
     --bs-bg-opacity: 1;
@@ -27,16 +30,19 @@ a:hover {
 .btn {
     border-radius: 33rem;
     border: 2px;
+    
 }
 .btn:hover{
     color: black;
     background-color: #ffffff;
     border-color: #ffffff;
+    
 }
 .btn1 {
     --bs-btn-hover-color: rgb(0, 0, 0);
     --bs-btn-hover-bg: #ffffff;
 }
+ 
 .container-fluid1 {
     width: 100%;
     padding-left: 12%;
