@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import{profilein,slidein1,slidein2,slidein3} from '../animations'
+import{profilein,slidein1,slidein2,slidein3, slideup, viewin} from '../animations'
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',
@@ -8,10 +8,12 @@ import{profilein,slidein1,slidein2,slidein3} from '../animations'
         profilein,
         slidein1,
         slidein2,
-        slidein3
-    ]
-
+        slidein3,
+        viewin,
+        slideup
+    ] 
 })
+    
 export class HomeComponent implements OnInit {
 
     constructor() { }

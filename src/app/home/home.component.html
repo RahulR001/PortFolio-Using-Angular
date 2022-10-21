@@ -1,4 +1,4 @@
-<div  class=" piccontainer">
+<div  class=" homeContainer">
     <div class="textcontainer">
         <h1  class="h1text">
             <p @slidein1>Hi There,</p>
@@ -9,12 +9,12 @@
             I Am into Full stack &nbsp; <b class="w">Development !</b>
         </h3>
 
-        <div class="aboutbtn">
-            <a class="button-85" href="">
+        <div @viewin class="aboutbtn">
+            <a class="button-85" routerLink="about">
                 About Me
             </a>
         </div>
-        <div class="social">
+        <div @slideup class="social">
             <a href="https://github.com/RahulR001" target="_blank"><img class="a" style="border-radius: 1000px;"
                     src="../../assets/img/gh.png" width="25%"></a>
             <a href="https://www.facebook.com/rahulsquads" target="_blank"><img style="border-radius: 1000px;"
@@ -27,8 +27,7 @@
                     src="../../assets/img/tw.png" width="25%"></a>
         </div>
     </div>
-   
 
-        <img class="" @profilein class="pic" src="../../assets/img/Rahul.png" alt="Rahul">
+        <img @profilein class="pic" src="../../assets/img/Rahul.png" alt="Rahul">
    
 </div>

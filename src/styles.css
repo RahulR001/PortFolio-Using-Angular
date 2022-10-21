@@ -13,3 +13,13 @@ body {
     background-repeat: repeat-y;
     overflow: hidden;
 }
+a {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    
+}
