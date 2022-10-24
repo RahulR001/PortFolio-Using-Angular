@@ -3,7 +3,7 @@ import { trigger, state,style, animate, transition, keyframes } from "@angular/a
 export const profilein=trigger('profilein', [
     state('void', style({
         opacity: 0,
-        transform:'translatex(200px)'
+        transform:'translatex(100px)'
     })),
     state('*', style({
         opacity: 1,
