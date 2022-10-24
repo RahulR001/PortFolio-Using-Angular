@@ -1,4 +1,3 @@
-
 .name {
     display: flex;
     flex-direction: start;
@@ -42,7 +41,7 @@
 }
 
 .homeContainer {
-  
+
     display: flex;
     justify-content: center;
     text-align: end;
@@ -65,10 +64,11 @@
     transition: .5s;
 }
 
-.pic:hover{
+.pic:hover {
     transform: scale(1.1);
     transition: .5s;
 }
+
 .textcontainer {
     margin-top: 196px;
     margin-right: 360px;
@@ -147,8 +147,8 @@
     height: 15vh;
     margin-bottom: -7px;
     /*Fix for safari gap*/
-    min-height: 100px;
-    max-height: 150px;
+    min-height: 67px;
+    max-height: 100px;
 }
 
 .content {
