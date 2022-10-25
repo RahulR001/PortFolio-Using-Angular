@@ -66,3 +66,54 @@ export const viewin = trigger('viewin', [
     })),
     transition('void=>*',animate('2s'))
 ])
+
+
+export const cardin1 = trigger('cardin1', [
+    state('void', style({
+        opacity: 0,
+        transform: 'translatex(-100px)'
+    })),
+    state('*', style({
+        opacity: 1,
+    })),
+    transition('void<=>*', [
+        animate('1s')
+    ])
+])
+export const cardin2 = trigger('cardin2', [
+    state('void', style({
+        opacity: 0,
+        transform: 'translatex(100px)'
+    })),
+    state('*', style({
+        opacity: 1,
+    })),
+    transition('void<=>*', [
+        animate('1s')
+    ])
+])
+export const cardin3 = trigger('cardin3', [
+    state('void', style({
+        opacity: 0,
+        
+    })),
+    state('*', style({
+        opacity: 1,
+    })),
+    transition('void<=>*', [
+        animate('1s')
+    ])
+])
+export const slideinright = trigger('slideinright', [
+    state('void', style({
+        opacity: 0,
+        transform:'translatex(100px)'
+    })),
+    state('*', style({
+        opacity:1
+    })),
+    transition('void<=>*', [
+    
+        animate('0.7s')
+])
+])
