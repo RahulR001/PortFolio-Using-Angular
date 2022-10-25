@@ -1,33 +1,32 @@
 <div @slidein1 id="heading">
     <p class="heading">Get in Touch</p><br>
 </div>
-<form @viewin class="row-cols-lg-3 my-1 ">
+<form @viewin action="https://formsubmit.co/rahulsquads@gmail.com" method="POST" class="row-cols-lg-3 my-1 ">
 
     <div class="container my-3">
         <div class="row-md-6">
             <label class="form-label txtcolor"> Name</label>
-
-            <input class="form-control" type="text">
+            <input class="form-control" name="name" type="text" required>
         </div>
     </div>
 
     <div class="container my-3">
         <div class="row-md-6">
             <label class="form-label txtcolor">Email</label>
-            <input class="form-control" type="text" placeholder="name@gmail.com">
-            
+            <input class="form-control" name="email" type="text" placeholder="name@gmail.com" required>
+
         </div>
     </div>
 
     <div class="container my-3">
         <div class="row-md-6">
             <label class="form-label txtcolor">Message</label>
-            <input class="form-control" type="text">
-           
+            <input class="form-control" name="message" type="text">
+
         </div>
     </div>
-
-
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://rahulr001.github.io/PortFolio-Using-Angular">
 
     <div class="container my-2 text-center ">
         <button type="submit" class="glow-on-hover">Send</button>
