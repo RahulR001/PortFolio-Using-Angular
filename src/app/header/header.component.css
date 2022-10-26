@@ -1,9 +1,9 @@
 .h2 {
-    font-size: 43px;
+    font-size: calc(2vw + 1rem);
 }
 
 .h1 {
-    font-size: 43px;
+    font-size: calc(2vw + 1rem);
     color: red;
 }
 
@@ -16,37 +16,42 @@ a {
 a:hover {
     color: #ffffff;
     transform: scale(1.1);
-        transition: 0.5s;
+    transition: 0.5s;
 }
+
 .bg-dark1 {
     --bs-bg-opacity: 1;
     background: transparent;
 }
+
 .btn1.active {
     color: black;
-    background-color:white;
-    border-color:white;
+    background-color: white;
+    border-color: white;
 }
+
 .btn {
     border-radius: 33rem;
     border: 2px;
-    
+
 }
-.btn:hover{
+
+.btn:hover {
     color: black;
     background-color: #ffffff;
     border-color: #ffffff;
-    
+
 }
+
 .btn1 {
     --bs-btn-hover-color: rgb(0, 0, 0);
     --bs-btn-hover-bg: #ffffff;
 }
- 
+
 .container-fluid1 {
     width: 100%;
-    padding-left: 12%;
-    padding-top: 26px;
+    padding-left: max(12%);
+    padding-top: max(26px);
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -54,17 +59,43 @@ a:hover {
     align-items: center;
     justify-content: space-between;
 }
-.navbar-nav {
-    padding-left: 60%;
+
+.offcanvas-body {
+
+    background-color: black;
 }
+
+.offcanvas-header {
+
+    background-color: black;
+
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+
+    width: 1em;
+    height: 1em;
+
+}
+
+.offcanvas {
+
+    max-width: 37%;
+
+}
+
 .waves {
     position: relative;
-        width: 100%;
-        transform: rotate(180deg);
-        height: 15vh;
-        margin-bottom: -50px;
-        min-height: 22px;
-        max-height: 79px;
+    width: 100%;
+    transform: rotate(180deg);
+    height: max(15vh);
+    margin-bottom: max(-50px);
+    min-height: 22px;
+    max-height: 79px;
 }
 
 .content {
@@ -113,8 +144,9 @@ a:hover {
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
     .waves {
-        height: 40px;
-        min-height: 40px;
+
+
+        margin-bottom: px;
     }
 
     .content {

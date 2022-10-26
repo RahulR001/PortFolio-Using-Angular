@@ -2,30 +2,33 @@
     display: flex;
     flex-direction: start;
     color: white;
-    font-size: 45px;
+    font-size: calc(1.5vw + .8rem);
 }
 
 .h {
     color: red;
-    font-size: 45px;
+    font-size: calc(1.8vw + .8rem);
 }
 
 .w {
     color: yellow;
-    font-size: 30px;
+    font-size: calc(1.3vw + .8rem);
 }
 
 .social {
-    margin-right: 140px;
-    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    margin-top: max(29px);
 }
 
 .social img {
-    width: 36px;
-    margin-left: 10px;
+    max-width: 36px;
+    margin-left: max(10px);
 }
 
 .h1text {
+    font-size: calc(1.5vw + .8rem);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -34,33 +37,36 @@
 }
 
 .h1text1 {
+    font-size: calc(1.5vw + .8rem);
     display: flex;
     justify-content: flex-start;
     text-align: start;
     color: white;
 }
 
-.homeContainer {
 
+.homeContainer {
     display: flex;
+    justify-content: flex-start;
+    text-align: end;
+    border: 0;
+    margin: 3.1% 5%;
+    column-gap: 23%;
+    /* display: flex;
     justify-content: center;
     text-align: end;
     border: 0;
     padding: 0;
-    margin-top: -35px;
+    margin-top: min(-35px); */
 }
 
 .pic {
-    text-align: right;
     border-radius: 100%;
     border-color: red;
-    height: 20%;
     width: 20%;
-    margin-top: 50px;
-    margin-left: -48px;
+
+    margin: 10px 1px;
     border: 3px solid;
-    margin-top: 125px;
-    margin-right: -86px;
     transition: .5s;
 }
 
@@ -70,9 +76,14 @@
 }
 
 .textcontainer {
-    margin-top: 196px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 196px;
     margin-right: 360px;
-    margin-left: -64px;
+    margin-left: -64px; */
 }
 
 .aboutbtn {
@@ -207,5 +218,29 @@
 
     h1 {
         font-size: 24px;
+    }
+
+    .homeContainer {
+        flex-direction: column;
+    }
+    .pic{
+        width: 35%;
+            margin: 10px 31%;
+    }
+}
+
+@media (max-width:500px) {
+    /* .h1text1 {
+        gap: 18px;
+
+        flex-direction: column;
+    } */
+ 
+    .homeContainer {
+        margin: 0 0;
+    }
+
+    .textcontainer {
+        align-items: flex-start;
     }
 }
