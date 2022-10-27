@@ -11,5 +11,7 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+    onActive() {
+        window.scroll(0, 0);
+}
 }

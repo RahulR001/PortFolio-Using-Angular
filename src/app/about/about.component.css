@@ -21,7 +21,7 @@
     letter-spacing: 1px;
     line-height: 34px;
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: calc(1vw + .5rem);
+    font-size: calc(.5vw + .8rem);
 }
 
 .head {
