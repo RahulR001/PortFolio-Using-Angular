@@ -1,9 +1,9 @@
 .h2 {
-    font-size: calc(5vh + .5rem);
+    font-size: calc(4vh + .5rem);
 }
 
 .h1 {
-    font-size: calc(5vh + .5rem);
+    font-size: calc(4vh + .5rem);
     color: red;
 }
 
@@ -73,6 +73,7 @@ a:hover {
 
 .navbar-toggler {
     background-color: #ffffff;
+        margin: 0vw 2vw 3vw;
 }
 
 .navbar-toggler-icon {
