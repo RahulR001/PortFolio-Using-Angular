@@ -1,68 +1,34 @@
 * {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     transition: .5s;
 }
-a:hover{
+
+a:hover {
     transform: scale(1.1);
 }
 
-#heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.heading {
-    color: yellow;
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 2px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.sub-heading {
-    color: whitesmoke;
-    font-size: 25px;
-    margin-top: -20px;
-    padding: 0;
-    letter-spacing: 3px;
-    word-spacing: 3px;
-}
 
 .project-item {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin: 2rem 13vw;
-    margin-bottom: 8.5rem;
+    display: flex;
+    margin: 2rem 4vw;
+    align-content: space-between;
     padding: 0;
-    list-style-type: none;
+    gap: 3vw;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
-.scroll {
-    scroll-behavior: smooth;
-    width: 100%;
-    height: 486px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-
-}
-
-.scroll::-webkit-scrollbar {
-    display: none;
-}
-
 
 
 .card {
     position: relative;
     display: block;
-    height: 160%;
-    width: 340px;
-    border-radius: 45px;
+    height: 17.5vw;
+    width: 23vw;
+    border-radius: 4vw;
     overflow: hidden;
     text-decoration: none;
 }
@@ -109,49 +75,50 @@ a:hover{
 
 .card__thumb {
     flex-shrink: 0;
-    width: 50px;
-    height: 50px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
 }
 
 .card__title {
-    font-size: 1.8em;
+    font-size: calc(1vw + .7rem);
     margin: 0;
-
     color: #6A515E;
 }
 
 .card__title1 {
 
-    font-size: 1.3em;
+    font-size: calc(1vw + .5rem);
     margin: 0;
     color: #6A515E;
 
 }
 
-.card__tagline {
-    display: block;
-    margin: 1em 0;
-    font-family: "MockFlowFont";
-    font-size: .8em;
-    color: #D7BDCA;
-}
 
 
 
 .card__description {
-    padding: 0 2em 2em;
+    padding: 0 0.5em 0.5em;
     margin: 0;
-   
+    text-align: center;
     font-family: "MockFlowFont";
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
+
 }
 
-.source{
+.source {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media(max-width:1000px) {
+    .card {
+        height: 43.5vw;
+        width: 57vw;
+        border-radius: 9vw;
+    }
+
+    .project-item {
+        flex-direction: row;
+    }
 }

@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
+     
 }
  
 a {
@@ -16,4 +18,60 @@ a:hover {
     transform: scale(1.1);
     
 }
+#heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.heading {
+    color: yellow;
+    font-size: calc(2vw + .8rem);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sub-heading {
+    color: whitesmoke;
+    font-size: calc(.5vw + .8rem);
+     text-align: center;
+    margin: 0px 5vw;
+    padding: 0;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #1c1b1b;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1c1b1b;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: rgb(46, 45, 45);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #1c1b1b;
+}
+ 
+
+::-webkit-resizer {
+    background-color: rgb(42, 42, 42);
+}
+ 

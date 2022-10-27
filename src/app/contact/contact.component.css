@@ -1,29 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
-
-#heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.heading {
-    color: yellow;
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 2px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.sub-heading {
-    color: whitesmoke;
-    font-size: 25px;
-    margin-top: -20px;
-    padding: 0;
-    letter-spacing: 3px;
-    word-spacing: 3px;
-}
+  
+ 
 
 .form-control {
     display: block;

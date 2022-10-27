@@ -107,7 +107,7 @@ export const cardin3 = trigger('cardin3', [
 export const slideinright = trigger('slideinright', [
     state('void', style({
         opacity: 0,
-        transform:'translatex(100px)'
+        transform:'translatex(5vw)'
     })),
     state('*', style({
         opacity:1
